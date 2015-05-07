@@ -50,7 +50,7 @@ void loop(void) {
   // Proceso de envio de muestras al servidor
   Serial.println("Conectando con el servidor...");
   if (client.connect(server, 80)>0) {  // Conexion con el servidor
-    client.print("GET /temp.php?temp1="); // Enviamos los datos por GET
+    client.print("GET /dosepi/control/temp.php?temp1="); // Enviamos los datos por GET
     client.print(t1);
     client.print("&hume1=");
     client.print(h1);
