@@ -9,9 +9,9 @@ $humedad2= $_GET['hume2'];
 
 
 $sql1="INSERT INTO sensores(sensor,temp,hume) VALUES ('1',$temperatura1,$humedad1);";
-$datos=mysql_query($sql1,$con); //enviar cóo MySQL
+$datos=mysql_query($sql1,$link); //enviar cóo MySQL
 
 $sql2="INSERT INTO sensores(sensor,temp,hume) VALUES ('2',$temperatura1,$humedad1);";
-$datos2=mysql_query($sql2,$con);
+$datos2=mysql_query($sql2,$link);
 mysql_close($con);//cerrar conexion
 ?>
