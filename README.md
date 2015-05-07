@@ -1,4 +1,4 @@
-# dosepi
+# DOSEPI
 Domotica del hogar DOSEPI
 En este repositorio encotraras todo lo necesario para poder montarte tu propio sistema de domótica en tu hogar.
 
